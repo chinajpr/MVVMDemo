@@ -32,13 +32,14 @@
         android:onClick="fiveStep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="第五步:实时更新"/>
+        android:text="第五步:双向绑定"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="第六步:其他"
         android:onClick="sixStep"/>
+
 
 
 

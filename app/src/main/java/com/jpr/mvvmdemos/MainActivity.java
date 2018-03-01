@@ -1,11 +1,9 @@
 package com.jpr.mvvmdemos;
 
 import android.content.Intent;
-import android.databinding.adapters.TextViewBindingAdapter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fiveStep(View view){
-        Intent intent = new Intent(this , UpdateActivity.class);
+        Intent intent = new Intent(this , DoubleBindActivity.class);
         startActivity(intent);
     }
 
@@ -44,4 +42,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this , DataActivity.class);
         startActivity(intent);
     }
+
+
 }

@@ -21,7 +21,7 @@
         <activity android:name=".ImageViewActivity"></activity>
         <activity android:name=".RecyclerViewActivity"></activity>
         <activity android:name=".ListenerActivity"></activity>
-        <activity android:name=".UpdateActivity"></activity>
+        <activity android:name=".DoubleBindActivity"></activity>
         <activity android:name=".DataActivity"></activity>
     </application>
 
