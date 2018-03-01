@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jpr.mvvmdemos.MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一步:TextView"
+        android:onClick="oneStep"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二步:ImageView"
+        android:onClick="twoStep"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三步:recyclerView"
+        android:onClick="threeStep"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第四步:监听"
+        android:onClick="fourStep"/>
+    <Button
+        android:onClick="fiveStep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第五步:实时更新"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第六步:其他"
+        android:onClick="sixStep"/>
+
+
+
+</LinearLayout>
